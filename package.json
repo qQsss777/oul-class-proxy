@@ -4,6 +4,9 @@
   "type": "module",
   "license": "MIT",
   "author": "Marc Lemoigne",
+    "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "prettier": "prettier . --write",
