@@ -1,0 +1,36 @@
+{
+  "name": "@qqsss777/oul-class-proxy",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": "Marc Lemoigne",
+  "scripts": {
+    "build": "tsc",
+    "prettier": "prettier . --write",
+    "lint": "eslint",
+    "lint-staged": "lint-staged",
+    "prepare": "husky",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "version:patch": "HUSKY=0 npm version patch",
+    "version:minor": "HUSKY=0 npm version minor",
+    "version:major": "HUSKY=0 npm version major",
+    "postversion": "git push --follow-tags"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.20.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^9.20.1",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.4.2",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.24.0",
+    "vitest": "^3.0.9"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
