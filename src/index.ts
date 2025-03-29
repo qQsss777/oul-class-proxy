@@ -1,1 +1,1 @@
-export * from "./Proxifier/withProxifier.js";
+export * from "./Proxy/withProxyInstance.js";
